@@ -310,9 +310,13 @@ def safe_queue_put(queue, item, is_stop_func=None, timeout=2):
 
 完整代码在：
 
+> https://github.com/ferventdesert/multi_yielder/blob/master/src/multi_yielder.py
+
 一些实现的细节很有趣，我们借助在函数中定义函数，可以不用复杂的类去承担职责，而仅仅只需函数。而类似的思想，在函数式编程中非常常见。
 
-该工具已经被笔者的流式语言etlpy所集成。但是依然有较多改进的空间，欢迎留言交流。
+该工具已经被笔者的流式语言`etlpy`所集成。但是依然有较多改进的空间，如没有集成分布式执行模式。
+
+欢迎留言交流。
 
 
 
