@@ -185,7 +185,7 @@ if __name__ == '__main__':
 
 
     i = 0
-    for item in multi_yield(xprint, process_mode, 3, xrange(100)):
+    for item in multi_yield(xrange(100),xprint, process_mode, 3) :
         print(item)
         i += 1
         if i > 10:
